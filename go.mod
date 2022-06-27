@@ -8,9 +8,7 @@ require (
 	github.com/MichaelTJones/pcg v0.0.0-20180122055547-df440c6ed7ed
 	github.com/RoaringBitmap/roaring v0.4.21
 	github.com/StackExchange/wmi v0.0.0-20210224194228-fe8f1750fd46 // indirect
-	github.com/apache/thrift v0.14.2
 	github.com/aws/aws-sdk-go v1.38.68 // indirect
-	github.com/bmizerany/perks v0.0.0-20141205001514-d9a9656a3a4b // indirect
 	github.com/c2h5oh/datasize v0.0.0-20171227191756-4eba002a5eae
 	github.com/cenkalti/backoff/v3 v3.0.0
 	github.com/cespare/xxhash/v2 v2.1.2
@@ -60,7 +58,6 @@ require (
 	github.com/pborman/uuid v1.2.0
 	github.com/pkg/errors v0.9.1
 	github.com/pkg/profile v1.2.1
-	github.com/prashantv/protectmem v0.0.0-20171002184600-e20412882b3a // indirect
 	github.com/prometheus/client_golang v1.12.1
 	github.com/prometheus/common v0.32.1
 	github.com/prometheus/prometheus v1.8.2-0.20210621150501-ff58416a0b02
@@ -68,14 +65,13 @@ require (
 	github.com/sergi/go-diff v1.1.0
 	github.com/shirou/gopsutil v3.21.6+incompatible // indirect
 	github.com/spf13/cobra v1.3.0
-	github.com/streadway/quantile v0.0.0-20150917103942-b0c588724d25 // indirect
 	github.com/stretchr/testify v1.7.0
 	github.com/twmb/murmur3 v1.1.6 // indirect
 	github.com/twotwotwo/sorts v0.0.0-20160814051341-bf5c1f2b8553
 	github.com/uber-go/tally v3.4.2+incompatible
 	github.com/uber/jaeger-client-go v2.29.1+incompatible
 	github.com/uber/jaeger-lib v2.4.1+incompatible
-	github.com/uber/tchannel-go v1.20.1
+	github.com/uber/tchannel-go v1.31.1-0.20220504180658-be708aa1a97d
 	github.com/valyala/tcplisten v0.0.0-20161114210144-ceec8f93295a
 	github.com/willf/bitset v1.1.10
 	// etcd is currently on an alpha version to accomodate a GRPC version upgrade. See
@@ -100,7 +96,7 @@ require (
 	go.uber.org/config v1.4.0
 	go.uber.org/goleak v1.1.12
 	go.uber.org/zap v1.21.0
-	golang.org/x/net v0.0.0-20220105145211-5b0dc2dfae98
+	golang.org/x/net v0.0.0-20220121210141-e204ce36a2ba
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/sys v0.0.0-20220114195835-da31bd327af9
 	google.golang.org/grpc v1.44.0
